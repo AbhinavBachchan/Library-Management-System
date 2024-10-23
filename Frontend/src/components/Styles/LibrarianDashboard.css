@@ -1,0 +1,86 @@
+/* Styles for LibrarianDashboard */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .logout-btn {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .dashboard-container {
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .book-form input {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .add-book-btn {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .books-list, .requests-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-item, .request-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .delete-btn, .update-btn, .approve-btn, .fine-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .fine-section {
+    margin-top: 20px;
+  }
+  
+  .fine-details {
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    padding: 15px;
+  }
+  

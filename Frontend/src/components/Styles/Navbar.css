@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #343a40;
+    padding: 1rem;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    margin-left: 970px;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    /* background-color: #0056b3; */
+  }
+  
